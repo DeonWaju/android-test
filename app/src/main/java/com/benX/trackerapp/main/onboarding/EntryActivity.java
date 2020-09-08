@@ -1,4 +1,4 @@
-package com.benX.trackerapp.main;
+package com.benX.trackerapp.main.onboarding;
 
 import androidx.annotation.Nullable;
 

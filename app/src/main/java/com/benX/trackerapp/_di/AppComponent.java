@@ -1,7 +1,6 @@
 package com.benX.trackerapp._di;
 
 import com.benX.trackerapp.TrackerApp;
-import com.benX.trackerapp._di.module.ContributeActivityModule;
 
 import javax.inject.Singleton;
 
@@ -11,7 +10,7 @@ import dagger.android.support.AndroidSupportInjectionModule;
 
 @Singleton
 @Component(modules = {AndroidSupportInjectionModule.class,
-        AppModule.class, ContributeActivityModule.class})
+        AppModule.class})
 public interface AppComponent {
 
     void inject(TrackerApp trackerApp);

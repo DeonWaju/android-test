@@ -27,7 +27,7 @@
 
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
         <uses-library android:name="com.google.android.maps" />
-        <activity android:name=".main.EntryActivity">
+        <activity android:name=".main.onboarding.EntryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
