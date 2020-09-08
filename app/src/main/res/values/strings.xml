@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TrackerApp</string>
+    <string name="app_name">Android Tracker</string>
     <string name="title_activity_maps">Map</string>
 
     <string name="distance_covered">Distance Covered :</string>
