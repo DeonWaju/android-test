@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">Android Test</string>
-    <string name="start">Start</string>
+    <string name="app_name">TrackerApp</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="distance_covered">Distance Covered :</string>
+    <string name="need_location">Enable GPS SERVICE</string>
+    <string name="location_content">
+        This app will like to change your device settings use GPS networks for your location
+    </string>
 </resources>
