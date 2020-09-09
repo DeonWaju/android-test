@@ -5,7 +5,7 @@ import ng.riby.androidtest.core.helpers.MapHelper;
 import ng.riby.androidtest.core.helpers.UIHelper;
 import ng.riby.androidtest.core.listeners.schedulers.AppRxSchedulers;
 import ng.riby.androidtest.main.home.HomeActivity;
-import ng.riby.androidtest.main.home.rvvm.HomeViewModel;
+import ng.riby.androidtest.main.home.rvm.HomeViewModel;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;

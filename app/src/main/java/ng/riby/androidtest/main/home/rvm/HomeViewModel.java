@@ -1,4 +1,4 @@
-package ng.riby.androidtest.main.home.rvvm;
+package ng.riby.androidtest.main.home.rvm;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -171,26 +171,6 @@ public class HomeViewModel extends ViewModel {
         }
 
 
-        /**
-         * You use this to calculate the distance too, I comment it because I need pay for
-         * cloud google billing
-         * */
-//        DistanceMatrixApi.getDistanceMatrix(mapHelper.geoContextDistanceApi(), origins, destination)
-//                .mode(TravelMode.WALKING)
-//                .setCallback(new PendingResult.Callback<DistanceMatrix>() {
-//                    @Override
-//                    public void onResult(DistanceMatrix result) {
-//                        locationTrackingCoordinates = tempLocation;
-//                        long temp = result.rows[0].elements[0].distance.inMeters;
-//                        totalDistanceCovered += temp;
-//                        distanceTracker.postValue(getDistance());
-//                    }
-//
-//                    @Override
-//                    public void onFailure(Throwable e) {
-//                        e.printStackTrace();
-//                    }
-//                });
     }
 
     private String getDistance() {

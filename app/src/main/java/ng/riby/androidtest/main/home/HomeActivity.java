@@ -21,7 +21,7 @@ import ng.riby.androidtest.core.helpers.UIHelper;
 import ng.riby.androidtest.core.interpolators.common.Spherical;
 import ng.riby.androidtest.core.listeners.schedulers.AppRxSchedulers;
 import ng.riby.androidtest.databinding.ActivityHomeBinding;
-import ng.riby.androidtest.main.home.rvvm.HomeViewModel;
+import ng.riby.androidtest.main.home.rvm.HomeViewModel;
 import ng.riby.androidtest.util.AppUtil;
 import ng.riby.androidtest.util.LogUtil;
 

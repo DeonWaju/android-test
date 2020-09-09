@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidStudioProjects-android-test2-TrackerApp.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidStudioProjects-android-test2-TrackerApp.iml" group="TrackerApp" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TrackerApp.iml" filepath="$PROJECT_DIR$/.idea/modules/TrackerApp.iml" group="TrackerApp" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TrackerApp-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TrackerApp-app.iml" group="TrackerApp/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-test2-TrackerApp.iml" filepath="$PROJECT_DIR$/.idea/modules/android-test2-TrackerApp.iml" group="TrackerApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-test2-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-test2-app.iml" group="TrackerApp/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="TrackerApp/app" />
     </modules>
   </component>

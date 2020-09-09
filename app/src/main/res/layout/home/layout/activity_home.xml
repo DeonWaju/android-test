@@ -5,7 +5,7 @@
     <data>
         <variable
             name="homeViewModel"
-            type="ng.riby.androidtest.main.home.rvvm.HomeViewModel" />
+            type="ng.riby.androidtest.main.home.rvm.HomeViewModel" />
     </data>
 
     <FrameLayout

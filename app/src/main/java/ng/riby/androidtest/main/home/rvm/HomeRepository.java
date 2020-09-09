@@ -1,4 +1,4 @@
-package ng.riby.androidtest.main.home.rvvm;
+package ng.riby.androidtest.main.home.rvm;
 
 import android.content.Context;
 
