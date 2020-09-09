@@ -5,7 +5,7 @@
     <data>
         <variable
             name="homeViewModel"
-            type="com.benX.trackerapp.main.home.rvvm.HomeViewModel" />
+            type="ng.riby.androidtest.main.home.rvvm.HomeViewModel" />
     </data>
 
     <FrameLayout
@@ -71,7 +71,7 @@
             android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".main.home.HomeActivity">
+            tools:context="ng.riby.androidtest.main.home.HomeActivity">
 
         </fragment>
 
