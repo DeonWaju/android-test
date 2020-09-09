@@ -19,3 +19,11 @@ The capturing phase of the app should work even when the device is offline.
 
 ## Duration
 The time for this test is 24hours
+
+##splash screen
+![Screenshot_20200909-033203](https://user-images.githubusercontent.com/53281797/92547828-b1589e80-f24d-11ea-9c9e-249dcab91df6.png)
+
+##Home screen
+![Screenshot_20200909-033210](https://user-images.githubusercontent.com/53281797/92547963-cb927c80-f24d-11ea-9671-563ed353371c.png)
+![Screenshot_20200909-033246](https://user-images.githubusercontent.com/53281797/92547986-d0efc700-f24d-11ea-9431-761b56543a14.png)
+
