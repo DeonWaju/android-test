@@ -17,14 +17,14 @@ public class AppModule {
 
     @Singleton
     @Provides
-    DatabaseManager provideDatabaseManager(AndroidTracker app) {
-        return DatabaseManager.getInstance(app.getApplicationContext());
+    Context provideContext(AndroidTracker application) {
+        return application.getApplicationContext();
     }
 
     @Singleton
     @Provides
-    Context provideContext(AndroidTracker application) {
-        return application.getApplicationContext();
+    DatabaseManager provideDatabaseManager(AndroidTracker app) {
+        return DatabaseManager.getInstance(app.getApplicationContext());
     }
 
     @ActivityScope

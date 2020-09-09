@@ -17,11 +17,11 @@ public interface CoordinatesDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     long save(Coordinates coordinates);
 
-    @Query("SELECT * from coordinates")
-    LiveData<List<Coordinates>> getAll();
-
     @Query("SELECT * from coordinates WHERE _id = :id ORDER BY createdAt LIMIT 1")
     Coordinates findById(long id);
+
+    @Query("SELECT * from coordinates")
+    LiveData<List<Coordinates>> getAll();
 
     @Delete
     void delete(Coordinates coordinates);

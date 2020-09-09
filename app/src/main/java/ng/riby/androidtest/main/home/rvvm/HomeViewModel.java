@@ -100,17 +100,13 @@ public class HomeViewModel extends ViewModel {
         if (ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
+
             return;
         }
         locationProviderClient.getLastLocation()
                 .addOnSuccessListener(location -> {
                     if (location != null) {
-                        LogUtil.w("Lastkno:---->", location.toString());
+                        LogUtil.w("LastKnown:---->", location.toString());
                         currentLocation = location;
                         locationLiveData.setValue(currentLocation);
                     } else {
@@ -159,7 +155,7 @@ public class HomeViewModel extends ViewModel {
             coordinates.setCreatedAt(new Date());
             id = coordinatesDao.save(coordinates);
             if (id > 0) {
-                LogUtil.w("saved coord: --> " + id);
+                LogUtil.w("saved coordinates: --> " + id);
             }
         }
         double distanceCovered = 0;

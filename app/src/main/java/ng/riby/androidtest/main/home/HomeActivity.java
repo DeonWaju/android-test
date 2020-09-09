@@ -181,4 +181,9 @@ public class HomeActivity extends BaseActivity<ActivityHomeBinding> implements V
             }
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
 }

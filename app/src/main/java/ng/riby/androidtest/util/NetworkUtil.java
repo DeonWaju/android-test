@@ -4,6 +4,8 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
+//this class to check network availability
+
 public class NetworkUtil {
 
     private NetworkUtil() {

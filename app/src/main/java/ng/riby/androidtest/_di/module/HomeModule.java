@@ -27,13 +27,6 @@ public class HomeModule {
 
     @ActivityScope
     @Provides
-    MapHelper provideMapHelper(HomeActivity context) {
-        return new MapHelper(context.getResources());
-    }
-
-
-    @ActivityScope
-    @Provides
     AppRxSchedulers provideAppRxSchedulers() {
         return new AppRxSchedulers();
     }
@@ -42,6 +35,12 @@ public class HomeModule {
     @Provides
     FusedLocationProviderClient provideFusedLocationProviderClient(HomeActivity homeActivity) {
         return LocationServices.getFusedLocationProviderClient(homeActivity);
+    }
+
+    @ActivityScope
+    @Provides
+    MapHelper provideMapHelper(HomeActivity context) {
+        return new MapHelper(context.getResources());
     }
 
 }
